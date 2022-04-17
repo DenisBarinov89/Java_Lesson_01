@@ -29,7 +29,7 @@ import java.sql.SQLOutput;
 public class Main {
     public static void main(String[] args) {
 
-        //Собираем седан
+        //Собираем седан V6
         Beeper beeperForSedan = new NormalBeeper(); //создаем гудок
         Engine engineForSedan = new EngineV6(); //создаем двигатель
         FuelTank tankForSedan = new FuelTankSedan(); //создаем топливный бак
